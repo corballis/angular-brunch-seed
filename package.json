@@ -1,0 +1,61 @@
+{
+  "name": "angular-brunch-seed",
+  "description": "Angular Brunch seed project",
+  "author": "Gabor Szmetanko <gabor.szmetanko@corballis.ie>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corballis/angular-brunch-seed.git"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build",
+    "build:prod": "brunch build --production",
+    "test": "tsc --noEmit && tslint app/**/*.ts app/*.ts"
+  },
+  "license": "MIT",
+  "keywords": [
+    "brunch",
+    "skeleton",
+    "angular",
+    "ng2",
+    "angular2",
+    "typescript",
+    "starter",
+    "template",
+    "generator"
+  ],
+  "dependencies": {
+    "@angular/common": "2.4.3",
+    "@angular/compiler": "2.4.3",
+    "@angular/core": "2.4.3",
+    "@angular/forms": "2.4.3",
+    "@angular/http": "2.4.3",
+    "@angular/platform-browser": "2.4.3",
+    "@angular/platform-browser-dynamic": "2.4.3",
+    "@angular/router": "3.4.3",
+    "core-js": "2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "0.7.4"
+  },
+  "devDependencies": {
+    "angular2-templates-brunch": "0.1.0",
+    "auto-reload-brunch": "2.7.1",
+    "brunch": "2.8.2",
+    "brunch-typescript": "2.1.0",
+    "codelyzer": "2.0.0-beta.4",
+    "cssnano": "3.10.0",
+    "doiuse": "2.5.0",
+    "environment-brunch": "1.0.0",
+    "html-brunch": "1.6.1",
+    "javascript-brunch": "2.0.0",
+    "postcss-brunch": "0.5.0",
+    "postcss-cssnext": "2.9.0",
+    "stylelint": "7.7.1",
+    "tslint": "4.3.1",
+    "typescript": "2.0.10",
+    "uglify-js-brunch": "2.0.1",
+    "fingerprint-brunch": "1.2.8",
+    "fingerprint-rev-replace-brunch": "2.0.0"
+  }
+}
